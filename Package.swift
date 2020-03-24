@@ -5,14 +5,10 @@ import PackageDescription
 let package = Package(
     name: "MDFInternationalization",
     products: [
-        .library(name: "MDFInternationalization", targets: ["MDFInternationalization"]),
+        .library(name: "MDFInternationalization", targets: ["MDFInternationalizationT"])
     ],
     targets: [
-        .target(name: "MDFInternationalization", 
-                path: "Sources", 
-                publicHeadersPath:"Sources/",
-                sources: [
-                    "Sources/*.{h,m}",
-                ])
+        .target(name: "MDFInternationalizationT", 
+                path: "Sources/")
     ]
 )
