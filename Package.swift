@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "MDFInternationalization", targets: ["MDFInternationalization"])
     ],
     targets: [
-        .target(name: "MDFInternationalization")
+        .target(name: "MDFInternationalization", publicHeadersPath:"include")
     ]
 )
