@@ -10,8 +10,7 @@ let package = Package(
     targets: [
         .target(name: "MDFInternationalization", 
                 sources: [
-                    "Sources"
-                ], 
-                publicHeadersPath:"Sources")
+                    "Sources/"
+                ])
     ]
 )
