@@ -3,5 +3,4 @@ module MDFInternationalization {
   header "MDFInternationalization.h"
   
   export *
-  module * { export * }
 }
