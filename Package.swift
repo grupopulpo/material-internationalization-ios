@@ -8,9 +8,6 @@ let package = Package(
         .library(name: "MDFInternationalization", targets: ["MDFInternationalization"])
     ],
     targets: [
-        .target(name: "MDFInternationalization", 
-                sources: [
-                    "Sources/"
-                ])
+        .target(name: "MDFInternationalization")
     ]
 )
